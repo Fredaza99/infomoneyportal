@@ -7,6 +7,13 @@ import { useParams } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AdBanner from '@/components/AdBanner';
+import ArticleLayout from '@/components/ArticleLayout';
+
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
 
 // Dados simulados para artigos com slugs amigáveis para SEO
 const articles = [
