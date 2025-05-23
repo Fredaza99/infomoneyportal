@@ -10,17 +10,20 @@ interface AdComponentProps {
 }
 
 // ID do cliente Google AdSense - Substitua pelo seu ID real quando for publicar o site
-const ADSENSE_CLIENT_ID = 'ca-pub-XXXXXXXXXXXXXXXX';
+// Formato: ca-pub-XXXXXXXXXXXXXXXX
+const ADSENSE_CLIENT_ID = 'ca-pub-XXXXXXXXXXXXXXXX';  // ⬅️ Substitua este ID pelo seu ID real do AdSense
 
 // Mapeamento de slots de anúncios para diferentes posições
+// Você obterá esses IDs ao criar unidades de anúncios no painel do AdSense
 const AD_SLOTS = {
-  'top-banner': '1234567890',        // Banner horizontal no topo (728x90)
-  'middle-banner': '2345678901',      // Banner retangular no meio (300x250)
-  'bottom-banner': '3456789012',      // Banner horizontal no rodapé (728x90)
-  'sidebar-top': '4567890123',        // Banner vertical na barra lateral superior (300x600)
-  'sidebar-bottom': '5678901234',     // Banner retangular na barra lateral inferior (300x250)
-  'in-article': '6789012345',         // Banner no meio do artigo (468x60)
-  'mobile-banner': '7890123456',      // Banner para dispositivos móveis (320x50)
+  // Formato dos IDs: 1234567890 (apenas números)
+  'top-banner': '1234567890',        // ⬅️ Banner horizontal no topo (728x90)
+  'middle-banner': '2345678901',      // ⬅️ Banner retangular no meio (300x250)
+  'bottom-banner': '3456789012',      // ⬅️ Banner horizontal no rodapé (728x90)
+  'sidebar-top': '4567890123',        // ⬅️ Banner vertical na barra lateral superior (300x600)
+  'sidebar-bottom': '5678901234',     // ⬅️ Banner retangular na barra lateral inferior (300x250)
+  'in-article': '6789012345',         // ⬅️ Banner no meio do artigo (468x60)
+  'mobile-banner': '7890123456',      // ⬅️ Banner para dispositivos móveis (320x50)
 };
 
 const AdComponent: React.FC<AdComponentProps> = ({ 

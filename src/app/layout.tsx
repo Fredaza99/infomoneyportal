@@ -146,7 +146,7 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX', {
+              gtag('config', 'G-XXXXXXXXXX', {  // Substitua 'G-XXXXXXXXXX' pelo seu ID de medição real
                 page_path: window.location.pathname,
                 cookie_flags: 'max-age=7200;secure;samesite=none'
               });
