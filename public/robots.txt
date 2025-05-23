@@ -1,0 +1,19 @@
+# Permitir que todos os robôs de busca indexem o site
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://infomoney.example.com/sitemap.xml
+
+# Diretórios específicos a não indexar
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/static/
+
+# Taxa de rastreamento para o Googlebot
+User-agent: Googlebot
+Crawl-delay: 1
+
+# Taxa de rastreamento para o Bingbot
+User-agent: Bingbot
+Crawl-delay: 2

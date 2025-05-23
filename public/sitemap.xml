@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Página inicial -->
+  <url>
+    <loc>https://infomoney.example.com/</loc>
+    <lastmod>2025-05-23T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Páginas de categorias -->
+  <url>
+    <loc>https://infomoney.example.com/economia</loc>
+    <lastmod>2025-05-23T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/tecnologia</loc>
+    <lastmod>2025-05-23T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/esportes</loc>
+    <lastmod>2025-05-23T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/entretenimento</loc>
+    <lastmod>2025-05-23T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Páginas de artigos -->
+  <url>
+    <loc>https://infomoney.example.com/artigo/1</loc>
+    <lastmod>2025-05-23T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>InfoMoney</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-23T10:00:00+00:00</news:publication_date>
+      <news:title>Como Investir na Bolsa de Valores em 2025</news:title>
+      <news:keywords>investimentos, bolsa de valores, economia, finanças</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://infomoney.example.com/images/artigos/bolsa-valores-2025.jpg</image:loc>
+      <image:title>Como Investir na Bolsa de Valores em 2025</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/artigo/2</loc>
+    <lastmod>2025-05-22T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>InfoMoney</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-22T10:00:00+00:00</news:publication_date>
+      <news:title>Inteligência Artificial: O Futuro do Trabalho</news:title>
+      <news:keywords>inteligência artificial, tecnologia, mercado de trabalho, futuro</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://infomoney.example.com/images/artigos/ia-futuro-trabalho.jpg</image:loc>
+      <image:title>Inteligência Artificial: O Futuro do Trabalho</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Adicione mais URLs para todos os artigos do site -->
+  
+  <!-- Páginas institucionais -->
+  <url>
+    <loc>https://infomoney.example.com/sobre</loc>
+    <lastmod>2025-05-01T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/contato</loc>
+    <lastmod>2025-05-01T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/politica-de-privacidade</loc>
+    <lastmod>2025-05-01T10:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://infomoney.example.com/termos-de-uso</loc>
+    <lastmod>2025-05-01T10:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
