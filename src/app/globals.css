@@ -5,17 +5,79 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --text-primary: #1a1a1a;
+  --text-secondary: #333333;
+  --text-tertiary: #555555;
+  --blue-primary: #0056b3;
+  --blue-hover: #003d82;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --text-primary: #f5f5f5;
+    --text-secondary: #e0e0e0;
+    --text-tertiary: #b0b0b0;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(--text-primary);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+p, span, div, li, a, button, input, textarea, select {
+  font-family: var(--font-merriweather), serif;
+  color: var(--text-primary);
+}
+
+.text-gray-500 {
+  color: var(--text-tertiary) !important;
+}
+
+.text-gray-600, .text-gray-700 {
+  color: var(--text-secondary) !important;
+}
+
+.text-gray-900 {
+  color: var(--text-primary) !important;
+}
+
+.text-blue-600 {
+  color: var(--blue-primary) !important;
+}
+
+.hover\:text-blue-700:hover {
+  color: var(--blue-hover) !important;
+}
+
+/* Estilos para o painel administrativo */
+.admin-panel h1, .admin-panel h2, .admin-panel h3 {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.admin-panel label {
+  color: #333333;
+  font-weight: 500;
+}
+
+.admin-panel p, .admin-panel span, .admin-panel div {
+  color: #333333;
+}
+
+.admin-panel input, .admin-panel textarea, .admin-panel select {
+  color: #1a1a1a;
+}
+
+.admin-panel button {
+  font-weight: 500;
 }

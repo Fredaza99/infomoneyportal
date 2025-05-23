@@ -1,6 +1,25 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat, Merriweather } from 'next/font/google';
 import "./globals.css";
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+// Fonte para títulos
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+  weight: ['400', '500', '600', '700', '800'],
+});
+
+// Fonte para texto
+const merriweather = Merriweather({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-merriweather',
+  weight: ['300', '400', '700', '900'],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -78,7 +97,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className={`${montserrat.variable} ${merriweather.variable} ${geistSans.variable} ${geistMono.variable}`}>
       <head>
         {/* Meta tags para SEO */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
